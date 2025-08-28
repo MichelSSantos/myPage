@@ -1,0 +1,9 @@
+ctrl shift k = apagar linha
+ctrl d = marcar palavras iguais
+alt + click = multiplos cursores
+ctrl y = refazer
+Ctrl + ; para comentar
+Ctrl + / para comentar e descomentar
+Ctrl + K Ctrl + C para comentar
+Ctrl + K Ctrl + U para descomentar. 
+Shift + Alt + A para comentar um bloco de código no Windows
