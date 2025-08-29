@@ -3,4 +3,6 @@ export const PATH_INVADER_IMAGE = "../assets/images/invader.png";
 export const PATH_SPACESHIP_ENGINE = "../assets/images/engine.png";
 export const PATH_SPACESHIP_SPRITE = "../assets/images/engine_sprites.png";
 export const INITIAL_FRAME = 8
-
+export const GameState ={
+    START: "start", PLAYING:"playing",GAME_OVER:"gameOver",
+};
