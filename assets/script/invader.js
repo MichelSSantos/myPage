@@ -133,19 +133,19 @@ const checkShootInvaders = () => {
                     y: invader.position.y + invader.height / 2,
                 },
                 10,
-                "purple");
+                "#c514dcff");
                 createExplosion({
                     x: invader.position.x + invader.width / 2,
                     y: invader.position.y + invader.height / 2,
                 },
                 10,
-                "purple");
+                "#c514dcff");
                 createExplosion({
                     x: invader.position.x + invader.width / 2,
                     y: invader.position.y + invader.height / 2,
                 },
                 10,
-                "red");
+                "#dc143c");
 
                 incrementScore(10)
                 grid.invaders.splice(invaderIndex, 1);
@@ -196,14 +196,14 @@ const gameOver = () =>{
         y:player.position.y + player.height / 2,
         },
         10,
-        "white"
+        "#fff"
     );
     createExplosion({
         x:player.position.x + player.width / 2 ,
         y:player.position.y + player.height / 2,
         },
         10,
-        "red"
+        "#dc143c"
     );
     createExplosion({
         x:player.position.x + player.width / 2,

@@ -6,7 +6,7 @@ class Projectile{
         this.velocity = velocity;
     }
     draw(ctx){
-        ctx.fillStyle = "white"
+        ctx.fillStyle = "#fff"
         ctx.fillRect(this.position.x, this.position.y, this.width, this.height);
     }
     update(){
